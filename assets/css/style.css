@@ -2,7 +2,10 @@
 
 body {
     font-family: Josefin-Sans, sans-serif;
-    color: #AFABA6;
+    color: #393837;
+    background-color: #ECE6DF;
+    width: 100%;
+    left: 0;
 }
 
 /* logo and header */
@@ -11,7 +14,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-family: Josefin-Sans, sans-serif;
-    color: #393837;
+    color: #ECE6DF;
 }
 
 #logo {
@@ -20,6 +23,31 @@ h1 {
 }
 
 #menu {
-    text-align: center;
+    letter-spacing: 5px;
+    list-style-type: none;
+    font-size: 120%;
+}
+
+#menu li {
+    color:#ECE6DF;
+    text-decoration: none;
+    text-align: center
+    display: inline;
+}
+
+.nav li {
     
 }
+
+.dark {
+    background-color: #393837;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+
+/*main body*/
+
+
