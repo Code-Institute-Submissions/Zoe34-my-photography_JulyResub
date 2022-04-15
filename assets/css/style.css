@@ -21,7 +21,9 @@ h1 {
     text-align: center;
     font-size: 250%;
 }
-
+.dark a {
+    text-decoration: none;
+}
 #menu {
     letter-spacing: 5px;
     list-style-type: none;
@@ -29,14 +31,17 @@ h1 {
 }
 
 #menu li {
-    color:#ECE6DF;
     text-decoration: none;
-    text-align: center
+    text-align: center;
+}
+
+.nav {
     display: inline;
 }
 
-.nav li {
-    
+.nav > li > a{
+    text-decoration: none;
+    color:#ECE6DF;
 }
 
 .dark {
@@ -45,6 +50,7 @@ h1 {
     top: 0px;
     left: 0px;
     position: absolute;
+    color:#ECE6DF;
 }
 
 
