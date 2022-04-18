@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Oswald:wght@200&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: Josefin-Sans, sans-serif;
-    color: #393837;
+    color: #121211;
     background-color: #ECE6DF;
     width: 100%;
-    left: 0;
+    left: 0px;
+    bottom: 0px;
 }
 
 /* logo and header */
@@ -15,44 +22,38 @@ h1 {
     letter-spacing: 3px;
     font-family: Josefin-Sans, sans-serif;
     color: #ECE6DF;
+    background-color: #121211;
+    padding: 3%;
+    text-decoration: none;
 }
 
 #logo {
     text-align: center;
     font-size: 250%;
 }
-.dark a {
-    text-decoration: none;
+
+hr {
+    width: 100%;
+    background-color:#ECE6DF;
+    height: 20px;
 }
+
 #menu {
     letter-spacing: 5px;
-    list-style-type: none;
     font-size: 120%;
 }
 
 #menu li {
+    list-style-type: none;
+    margin-right: 20px;
+    float: right;
+}
+
+ #menu a {
     text-decoration: none;
-    text-align: center;
-}
-
-.nav {
-    display: inline;
-}
-
-.nav > li > a{
-    text-decoration: none;
-    color:#ECE6DF;
-}
-
-.dark {
-    background-color: #393837;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-    position: absolute;
-    color:#ECE6DF;
-}
-
+    color:#121211;
+    
+ }
 
 /*main body*/
 
