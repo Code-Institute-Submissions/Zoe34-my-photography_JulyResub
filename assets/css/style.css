@@ -17,13 +17,16 @@ body {
 
 /* logo and header */
 
+header {
+    background-color:#121211;
+}
+
 h1 {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-family: Josefin-Sans, sans-serif;
     color: #ECE6DF;
-    background-color: #121211;
-    padding: 3%;
+    padding: 2% 3% 3% 3%;
     margin: 0;
 }
 
@@ -37,15 +40,15 @@ header > a {
     text-decoration: none;
 }
 
-hr {
-    width: 100%;
-    background-color:#ECE6DF;
-    height: 20px;
-}
-
 #menu {
     letter-spacing: 5px;
     font-size: 120%;
+}
+
+#menu div {
+    display: inline-block;
+    width: 27%;
+    text-align: center;
 }
 
 #menu li {
@@ -56,20 +59,20 @@ hr {
 
  #menu a {
     text-decoration: none;
-    color:#121211;
+    color:#ECE6DF;
     
  }
 
  #menu a:hover {
     text-decoration: underline;
-    color:rgb(57, 129, 129)
+    color:rgb(158, 96, 97)
  }
 
 /*images*/
 
 #menu-break {
     width: 100%;
-    height: 20px;
+    height: 10px;
     background-color:#ECE6DF;
 }
 
@@ -81,7 +84,7 @@ hr {
 .images > #image-one > img {
     width: 350px;
     height: 234px;
-    padding: 30px 20px 0 20px;
+    padding: 20px 20px 0 20px;
     margin-left: 20px;
     margin-top: 20px;
 }
@@ -89,7 +92,7 @@ hr {
 .images > #image-two > img {
     width: 368px;
     height: 234px; 
-    padding-top: 30px;
+    padding-top: 20px;
     margin-top: 20px;
     margin-left: 30px;
     margin-right: 30px;
@@ -98,9 +101,14 @@ hr {
 .images > #image-three > img {
     width: 388px;
     height: 234px; 
-    padding-top: 30px;
+    padding-top: 20px;
     margin-left: 20px;
     margin-top: 20px; 
+}
+
+#section-break {
+    width: 100%;
+    height: 40px;
 }
 
 /*footer*/
@@ -118,12 +126,12 @@ footer {
     width: 20%;
 }
 
-.footer-icons > i {
-    color:#121211;
-    font-size: 200%;
+.footer-icons i {
+    color:#121211 !important;
+    font-size: 130%;
     width: 100%;
-    margin: 0 0 5px 0;
-    padding: 0;
+    margin: 0;
+    padding-bottom: 0;
 }
 
 
