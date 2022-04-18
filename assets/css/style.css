@@ -81,24 +81,50 @@ hr {
 .images > #image-one > img {
     width: 350px;
     height: 234px;
-    padding: 30px 50px 0 5px;
+    padding: 30px 20px 0 20px;
+    margin-left: 20px;
     margin-top: 20px;
 }
 
 .images > #image-two > img {
     width: 368px;
     height: 234px; 
-    padding: 30px 20px 0 0;
+    padding-top: 30px;
     margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .images > #image-three > img {
     width: 388px;
     height: 234px; 
-    padding: 30px 5px 0 50px;
-    margin-top: 20px;  
+    padding-top: 30px;
+    margin-left: 20px;
+    margin-top: 20px; 
 }
 
+/*footer*/
+
+footer {
+    height: 50px;
+}
+.footer-icons {
+    text-align: center;
+    font-size: 150%;
+}
+
+.footer-icons > li {
+    display: inline-block;
+    width: 20%;
+}
+
+.footer-icons > i {
+    color:#121211;
+    font-size: 200%;
+    width: 100%;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
 
 
 
