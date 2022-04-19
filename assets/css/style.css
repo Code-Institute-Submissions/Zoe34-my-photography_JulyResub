@@ -135,6 +135,42 @@ footer {
     padding-bottom: 0;
 }
 
+/*text*/
+
+.heading {
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.heading #text-heading {
+    text-align: center;
+    color:#121211;
+    font-size: 170%;
+}
+
+.text {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.text p {
+    text-align: center;
+    color:#121211;
+    line-height: 20px;
+    font-size: large;
+}
+
+#text-break {
+    height: 30px;
+    width: 100%;
+}
+
+#second-text-break {
+    height: 30px;
+    width: 100%;
+}
+
 
 
 
