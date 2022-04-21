@@ -6,6 +6,11 @@
     border: none;
 }
 
+#page-container {
+    position: relative;
+  min-height: 100vh;
+}
+
 body {
     font-family: Josefin-Sans, sans-serif;
     color: #121211;
@@ -114,9 +119,12 @@ header > a {
 
 /*footer*/
 
-footer {
-    height: 50px;
+#footer {
+    background-color: rgb(67, 8, 8);
+    position: relative;
+    max-height: 10vh;
 }
+
 .footer-icons {
     text-align: center;
     font-size: 150%;
@@ -128,11 +136,11 @@ footer {
 }
 
 .footer-icons i {
-    color:#121211 !important;
+    color:#ECE6DF !important;
     font-size: 130%;
     width: 100%;
     margin: 0;
-    padding-bottom: 0;
+    padding: 5%;
 }
 
 /*text*/
@@ -161,16 +169,46 @@ footer {
     font-size: large;
 }
 
+#heading-break {
+    width: 100%;
+    height: 20px;
+}
+
 #text-break {
-    height: 30px;
+    height: 20px;
     width: 100%;
 }
 
 #second-text-break {
-    height: 30px;
+    height: 70px;
     width: 100%;
 }
 
+/*table*/
+
+table, th, td {
+    margin: 0 auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.times {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 170%;
+}
+
+#times-break {
+    width: 100%;
+    height: 40px;
+}
+#footer-break {
+    width: 100%;
+    height: 30px;
+}
 
 
 
