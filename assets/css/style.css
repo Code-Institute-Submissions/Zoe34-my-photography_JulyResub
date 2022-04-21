@@ -210,6 +210,7 @@ table, th, td {
     width: 100%;
     height: 40px;
 }
+
 #footer-break {
     width: 100%;
     height: 30px;
@@ -217,24 +218,24 @@ table, th, td {
 
 /*form*/
 
-#form {
+#form > .signup {
     margin: 0 auto;
-    clear: both;
-
 }
 
-#form > #background {
-    background: url('../images/dslr-g4ea71d1e6_1920.jpg') center center;
-    height: 100vh;
+#background img {
+    background: url('../images/dslr-g4ea71d1e6_1920.jpg') no repeat center center;
+    height: 750px;
     width: 100%;
     opacity: 0.5;
 }
 
 #signup-heading {
-    margin: 0 auto;
     text-transform: uppercase;
     text-align: center;
+    top: 10px;
 }
+
+
 
 
 
