@@ -154,6 +154,10 @@ header > a {
 
 }
 
+.heading > i {
+    color:#121211;
+}
+
 .heading #text-heading {
     text-align: center;
     color:#121211;
@@ -218,15 +222,13 @@ table, th, td {
 
 /*form*/
 
-#form > .signup {
-    margin: 0 auto;
-}
-
-#background img {
-    background: url('../images/dslr-g4ea71d1e6_1920.jpg') no repeat center center;
-    height: 750px;
-    width: 100%;
+.form {
+    background: url('../images/dslr-g4ea71d1e6_1920.jpg') center center;
+    background-size: cover;
+    background-position: center;
     opacity: 0.5;
+    width: 100%;
+    height: 700px;
 }
 
 #signup-heading {
