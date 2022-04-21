@@ -215,21 +215,27 @@ table, th, td {
     height: 30px;
 }
 
-/*background image for signup page*/
-
-#background-image {
-    width: 100%;
-    height: 450px;
-    background: url('../images/dslr-g4ea71d1e6_1920.jpg') no-repeat center center;
-    opacity: 0.5;
-    position: relative;
-    height: 100vh;
-}
+/*form*/
 
 #form {
     margin: 0 auto;
     clear: both;
+
 }
+
+#form > #background {
+    background: url('../images/dslr-g4ea71d1e6_1920.jpg') center center;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.5;
+}
+
+#signup-heading {
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 
 
 
