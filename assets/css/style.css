@@ -23,7 +23,7 @@ body {
 /* logo and header */
 
 header {
-    background-color:#121211;
+    background-color:#0a0a09;
 }
 
 h1 {
@@ -70,7 +70,7 @@ header > a {
 
  #menu a:hover {
     text-decoration: underline;
-    color:rgb(158, 96, 97)
+    color:rgb(158, 96, 97);
  }
 
 /*images*/
@@ -245,8 +245,8 @@ table, th, td {
 
 label {
     box-sizing: border-box;
-    border: 2px solid rgb(100, 2, 4);
-    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(100, 2, 4);
+    background-color: rgb(255, 255, 255, 0.683);
     display: list-item;
     list-style: none;
     width: 300px;
@@ -254,12 +254,13 @@ label {
     float: left;
     margin-left: 25%;
     border-radius: 8px;
+    font-weight: bold;
 }
 
 input {
     box-sizing: border-box;
-    border: 2px solid rgb(100, 2, 4);
-    background-color:rgb(255, 255, 255);
+    border: 3px solid rgb(100, 2, 4);
+    background-color:rgba(255, 255, 255, 0.683);
     display: list-item;
     list-style: none;
     width: 300px;
@@ -272,6 +273,7 @@ input {
 .type {
     font-size: 1em;
     height: 40px;
+    text-align: center;
 }
 
 
@@ -280,6 +282,28 @@ input {
     height: 30px;
 }
 
+input:hover {
+    border: 3px solid rgb(63, 41, 42);
+    background-color: #efddcb8a;
+}
+
+.join-button {
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    border: 3px solid rgb(100, 2, 4);
+    background-color:rgb(255, 255, 255, 0.683);
+    margin: 0 430px 0 430px;
+    font-size: 1em;
+    height: 40px;
+    font-weight:bold;
+    text-align: center;
+}
+
+.join-button:hover {
+    background-color: rgba(56, 167, 76, 0.541);
+    border:3px solid rgb(10, 9, 9);
+}
 
 
 
