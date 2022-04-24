@@ -168,11 +168,11 @@ header > a {
 
 .text {
     margin: 0 auto;
-    width: 70%;
+    width: 50%;
 }
 
 .text p {
-    text-align: center;
+    text-align: justify;
     color:#121211;
     line-height: 20px;
     font-size: large;
@@ -200,9 +200,11 @@ table, th, td {
     margin: 0 auto;
     border: 2px solid black;
     border-collapse: collapse;
-    border-radius: 20px;
     padding: 10px;
     font-weight: bold;
+    width: 600px;
+    font-size: large;
+    text-align: center;
 }
 
 .times {
@@ -262,7 +264,7 @@ label {
 input {
     box-sizing: border-box;
     border: 3px solid rgb(7, 7, 7);
-    background-color:rgba(255, 255, 255, 0.683);
+    background-color:rgba(255, 255, 255, 0.874);
     display: list-item;
     list-style: none;
     width: 300px;
@@ -286,7 +288,7 @@ input {
 
 input:hover {
     border: 3px solid rgb(7, 7, 7);
-    background-color: #efddcb8a;
+    background-color: #9492908a;
 }
 
 .join-button {
@@ -365,6 +367,33 @@ input:hover {
 .right-image {
     margin: 0 80px 40px 0;
 }
+
+/*Media queries*/
+
+/* For larger to medium screens size from 1020px wide and down */
+
+@media screen and (max-width: 1020px) {
+   .images > .main-left {
+       margin: 0 auto;
+       max-width: 300px;
+       max-height: 201px;
+       display: flexboc;
+   }
+
+   .images > .main-right {
+    margin: 0 auto;
+    max-width: 300px;
+    max-height: 191px;
+    display: flexbox;
+}
+
+    .images > .main-center {
+     margin: 0 auto;
+     max-width: 300px;
+     max-height: 181px;
+     display: flexbox;
+}
+    }
 
 
 
