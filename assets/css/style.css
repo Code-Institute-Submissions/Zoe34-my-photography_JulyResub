@@ -89,27 +89,30 @@ header > a {
 .images > #image-one > img {
     width: 350px;
     height: 234px;
-    padding-top: 20px;
-    margin-top: 20px;
     margin-right: 20px;
     margin-left: 30px;
+    box-shadow: 10px 10px 10px 0 rgb(146, 144, 144);
+    margin-top: 20px;
+    border-radius: 8px;
 }
 
 .images > #image-two > img {
     width: 368px;
     height: 234px; 
-    padding-top: 20px;
-    margin-top: 20px;
     margin-left: 30px;
     margin-right: 30px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px 0 rgb(146, 144, 144);
+    border-radius: 8px;
 }
 
 .images > #image-three > img {
     width: 388px;
     height: 234px; 
-    padding-top: 20px;
+    margin-top: 20px;
     margin-left: 20px;
-    margin-top: 20px; 
+    box-shadow: 10px 10px 10px 0 rgb(146, 144, 144);
+    border-radius: 8px;
 }
 
 #section-break {
@@ -315,8 +318,10 @@ input:hover {
 
 .row-1 img {
     width: 500px;
-    border: 2px solid black;
+    border: 1px solid black
     display: inline-flex;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px 0 rgb(146, 144, 144);
 }
 
 #container {
@@ -335,8 +340,10 @@ input:hover {
 
 .row-2 img {
     width: 500px;
-    border: 2px solid black;
+    border: 1px solid black;
     display: inline-flex;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px 0 rgb(146, 144, 144);
     
 }
 
@@ -349,8 +356,10 @@ input:hover {
 
 .row-3 img {
     width: 500px;
-    border: 2px solid black;
+    border: 1px solid black;
     display: inline-flex;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px 0 rgb(146, 144, 144);
 }
 
 .left-image {
