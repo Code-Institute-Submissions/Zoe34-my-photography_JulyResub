@@ -373,26 +373,25 @@ input:hover {
 /* For larger to medium screens size from 1020px wide and down */
 
 @media screen and (max-width: 1020px) {
-   .images > .main-left {
+
+    #photographs-main > #image-one > .main-left {
        margin: 0 auto;
-       max-width: 300px;
-       max-height: 201px;
-       display: flexboc;
+       max-width: 70%;
+       height: auto;
    }
 
-   .images > .main-right {
-    margin: 0 auto;
-    max-width: 300px;
-    max-height: 191px;
-    display: flexbox;
+   #photographs-main > .main-right {
+       margin: 0 auto;
+       max-width: 70%;
+       height: auto;
+    }
+
+    #photographs-main > .main-center {
+        max-width: 70%;
+        margin: 0 auto;
+        height: auto;
 }
 
-    .images > .main-center {
-     margin: 0 auto;
-     max-width: 300px;
-     max-height: 181px;
-     display: flexbox;
-}
     }
 
 
