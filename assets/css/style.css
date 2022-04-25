@@ -378,25 +378,29 @@ input:hover {
         width: 30%;
         height: 95%;
         text-align: justify;
+        padding-bottom: 5%;
+        margin-top: 50%;
     }
 
-    .photographs-main > .image-two {
-        width: 30%;
-        height: 95%;
-        text-align: justify;
-        
-        
+    .heading {
+        padding: 7% 2% 3% 0;
+        text-align: center;
     }
 
-    .photographs-main > .image-three {
-        width: 30%;
-        height: 95%;
+    .text > p {
+        font-size: 100%;
         text-align: justify;
     }
 
-    .images {
-        display: inline-block;
+     table {
+         width: 60%;
+     }
+
+     td {
+        font-size: 80%; 
     }
+
+
 
 }
 
