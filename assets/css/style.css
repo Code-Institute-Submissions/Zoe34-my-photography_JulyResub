@@ -255,6 +255,7 @@ table {
     text-align: center;
     top: 10px;
     padding: 40px;
+    font-size: 170%;
     
 }
 
@@ -316,16 +317,17 @@ input:hover {
     font-size: 1em;
     height: 40px;
     font-weight: bold;
+    
 }
 
 .center > .join-button {
     text-align: center;
     justify-content: center;
-    position: fixed;
-    margin: auto;
     display: flex;
     left: 35%;
     right: 35%;
+    margin: 0 auto;
+    position: absolute;
 }
 
 .join-button:hover {
@@ -399,8 +401,38 @@ input:hover {
 
 @media screen and (max-width: 1020px) {
 
+    #photographs-main {
+        width: 100%;
+        height: 300px;
+    }
+
+       #photographs-main > #image-one {
+        width: 30%;
+        height: 95%;
+        text-align: justify;
+    }
+
+    #photographs-main > #image-two {
+        width: 30%;
+        height: 95%;
+        text-align: justify;
+        
+        
+    }
+
+    #photographs-main > #image-three {
+        width: 30%;
+        height: 95%;
+        text-align: justify;
+    }
+
+    .images {
+        display: inline-block;
+    }
 
 
+
+}
 
 
 
