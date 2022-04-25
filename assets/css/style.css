@@ -379,9 +379,9 @@ input:hover {
 
 /*Media queries*/
 
-/* For larger to medium screens size from 1020px wide and down */
+/* For larger to medium screens size from 1200px wide and down */
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1200px) {
 
     .photographs-main {
         width: 100%;
@@ -427,10 +427,51 @@ input:hover {
         padding: 10% 0 10% 0;
     }
 
-
-
 }
 
+/* for medium screen sizes from 735px wide and down */
+@media screen and (max-width: 735px) {
+    .signup > label {
+        width: 30%;
+        margin: 0 1% 0 15%
+    }
+
+    .signup > input {
+        width: 30%;
+        margin: 0 15% 1% 0;
+    }
+
+    .signup {
+        margin-bottom: 30%;
+    }
+}
+
+/* for medium screen sizes from 620px wide and down */
+@media screen and (max-width: 620px) {
+    .signup > label {
+        width: 35%;
+        margin: 0 0 0 10%
+    }
+
+    .signup > input {
+        width: 35%;
+        margin: 0 10% 0 0;
+    }
+
+    .signup {
+        margin-bottom: 30%;
+    }
+
+    .images {
+        margin-top: 10%
+        
+    }
+}
+
+/*for small screen sizes from 576px wide and down*/
+@media (min-width: 576px) {  
+
+}
 
 
 
