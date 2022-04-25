@@ -86,16 +86,17 @@ header > a {
     display: inline-block;
 }
 
-.images > #image-one > img {
+ #image-one > img {
     width: 350px;
     height: 234px;
     margin-right: 20px;
-    margin-left: 30px;
+    margin-left: 100px;
     box-shadow: 10px 10px 10px 0 rgb(33, 33, 33);
     border-radius: 5px;
+    text-align: justify;
 }
 
-.images > #image-two > img {
+ #image-two > img {
     width: 368px;
     height: 234px; 
     margin-left: 30px;
@@ -103,15 +104,18 @@ header > a {
     margin-top: 20px;
     box-shadow: 10px 10px 10px 0 rgb(33, 33, 33);
     border-radius: 5px;
+    text-align: justify;
 }
 
-.images > #image-three > img {
+ #image-three > img {
     width: 388px;
     height: 234px; 
     margin-top: 20px;
+    margin-right: 20px;
     margin-left: 20px;
     box-shadow: 10px 10px 10px 0 rgb(33, 33, 33);
     border-radius: 5px;
+    text-align: justify;
 }
 
 #section-break {
@@ -172,11 +176,12 @@ header > a {
 }
 
 .text p {
-    text-align: justify;
+    text-align: center;
     color:#121211;
     line-height: 20px;
-    font-size: large;
+    font-size: 150%;
     font-weight: bold;
+    line-height: 30px;
 }
 
 #heading-break {
@@ -196,15 +201,25 @@ header > a {
 
 /*table*/
 
-table, th, td {
+ td {
     margin: 0 auto;
     border: 2px solid black;
     border-collapse: collapse;
-    padding: 10px;
     font-weight: bold;
-    width: 600px;
-    font-size: large;
+    padding: 10px;
+    width: 200px;
     text-align: center;
+}
+
+tr {
+    width: 200px;
+    font-size: 150%;
+}
+
+table {
+    width: 500px;
+    margin: 0 auto;
+    border-spacing: 0;
 }
 
 .times {
@@ -321,7 +336,6 @@ input:hover {
     width: 500px;
     display: inline-flex;
     border-radius: 8px;
-    border: 2px solid black;
 }
 
 #container {
@@ -342,7 +356,6 @@ input:hover {
     width: 500px;
     display: inline-flex;
     border-radius: 8px;
-    border: 2px solid black;
     
 }
 
@@ -357,15 +370,14 @@ input:hover {
     width: 500px;
     display: inline-flex;
     border-radius: 8px;
-    border: 2px solid black;
 }
 
 .left-image {
-    margin: 0 0 40px 80px;
+    margin: 0 0 40px 90px;
 }
 
 .right-image {
-    margin: 0 80px 40px 0;
+    margin: 0 90px 40px 0;
 }
 
 /*Media queries*/
@@ -374,25 +386,6 @@ input:hover {
 
 @media screen and (max-width: 1020px) {
 
-    #photographs-main > #image-one > .main-left {
-       margin: 0 auto;
-       max-width: 70%;
-       height: auto;
-   }
-
-   #photographs-main > .main-right {
-       margin: 0 auto;
-       max-width: 70%;
-       height: auto;
-    }
-
-    #photographs-main > .main-center {
-        max-width: 70%;
-        margin: 0 auto;
-        height: auto;
-}
-
-    }
 
 
 

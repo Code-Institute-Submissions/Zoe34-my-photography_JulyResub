@@ -33,3 +33,7 @@ Shows the most recent work of the business and advertises working with different
 
 The Signup Page:
 A get in touch page which offers a short signup form including the name and email of any user who would be interested in contacting. the background image is bold and features a camera, which supports the theme of the business. 
+
+Colour scheme:
+Black and beige shades dominate over the page
+The signup page has is based on black and white tonnes which stand out.
