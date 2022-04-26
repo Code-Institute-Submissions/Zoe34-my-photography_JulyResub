@@ -24,6 +24,7 @@ body {
 
 header {
     background-color: #0a0a09;
+    width: 100%;
 }
 
 h1 {
@@ -429,6 +430,7 @@ input:hover {
 
     table {
         width: 60%;
+        margin-bottom: 10%;
     }
 
     td {
@@ -446,6 +448,10 @@ input:hover {
 
     .confirmation-container>h2 {
         padding: 10% 0 10% 0;
+    }
+
+    .footer {
+        position: fixed;
     }
 
 }
@@ -468,6 +474,14 @@ input:hover {
 
     .text>p {
         text-align: center;
+    }
+
+    .table {
+        margin-bottom: 10%;
+    }
+
+    .footer {
+        position: fixed;
     }
 }
 
@@ -496,7 +510,16 @@ input:hover {
     }
 
     .menu > li {
-        padding: ;
+        padding: 0 5% 0 5% ;
+        margin: 0;
+    }
+
+    .table {
+        margin-bottom: 10%;
+    }
+
+    .footer {
+        position: fixed;
     }
 }
 
