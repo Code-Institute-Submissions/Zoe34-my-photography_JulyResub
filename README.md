@@ -45,4 +45,4 @@ No errors were found when passing the code through the Jigsaw Validator.
 The website is suited to large screens from 1200px, medium screens from 735px wide, medium to small screens from 620px and lower and very small devices from 576px wide.
 The content is adjusted using different queries to maintain proportions with varying screen size and keep the content easy to read.
 
-The errors that I have come across are the inaccurate use of the div element as a child of the ul element in the index.html
+The errors that I have come across are an empty heading element in the index.html
