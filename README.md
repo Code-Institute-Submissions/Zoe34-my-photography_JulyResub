@@ -37,3 +37,12 @@ A get in touch page which offers a short signup form including the name and emai
 Colour scheme:
 Black and beige shades dominate over the page
 The signup page has is based on black and white tonnes which stand out.
+
+Testing:
+The code has been tested using the W3C Validator 
+No errors were found when passing the code through the Jigsaw Validator.
+
+The website is suited to large screens from 1200px, medium screens from 735px wide, medium to small screens from 620px and lower and very small devices from 576px wide.
+The content is adjusted using different queries to maintain proportions with varying screen size and keep the content easy to read.
+
+The errors that I have come across are the inaccurate use of the div element as a child of the ul element in the index.html

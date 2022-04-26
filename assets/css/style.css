@@ -46,18 +46,33 @@ header>a {
 
 .menu {
     font-size: 120%;
-}
-
-.menu div {
     display: inline-block;
-    width: 27%;
+    width: 100%;
     text-align: center;
 }
 
 .menu li {
     list-style-type: none;
-    margin-right: 20px;
     float: right;
+    width: 25%;
+    text-align: center;
+    padding: 0 1% 0 1%;
+    text-align: justify;
+}
+
+nav>.menu>.home {
+
+    display: inline;
+}
+
+nav>.menu>.gallery {
+
+    display: inline;
+}
+
+nav>.menu>.signup-form {
+
+    display: inline;
 }
 
 .menu a {
