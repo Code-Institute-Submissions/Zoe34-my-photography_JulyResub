@@ -223,6 +223,7 @@ table {
     width: 30%;
     margin: 0 auto;
     border-spacing: 0;
+    margin-bottom: 10%;
 }
 
 .times {
@@ -483,6 +484,11 @@ input:hover {
     .footer {
         position: fixed;
     }
+
+    .menu > li {
+        padding: 0 5% 0 5% ;
+        margin: 0;
+    }
 }
 
 /* for medium screen sizes from 620px wide and down */
@@ -510,7 +516,7 @@ input:hover {
     }
 
     .menu > li {
-        padding: 0 5% 0 5% ;
+        padding: 0 2% 0 2% ;
         margin: 0;
     }
 
@@ -555,12 +561,14 @@ input:hover {
     }
 
     table {
-        margin-bottom: 15%;
+        margin-bottom: 10%;
     }
 
     .menu > li {
-        padding: 0 3% 0 3%;
+        padding: 0 2% 0 2%;
+        margin: 0;
     }
+
 
     
 }
