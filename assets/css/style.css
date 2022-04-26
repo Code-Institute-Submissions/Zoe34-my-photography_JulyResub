@@ -376,6 +376,7 @@ input:hover {
     flex-direction: row;
     justify-content: space-around;
     row-gap: 5%;
+    margin-bottom: 10%;
 }
 
 .row-2 img {
