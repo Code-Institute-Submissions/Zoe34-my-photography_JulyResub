@@ -8,6 +8,10 @@ To view the work of a photographer and gain ideas and inspiration for potential 
 Site Owner’s Goal:
 To provide inspiration for the viewer and display a gallery of photos showing different styles and designs in diverse locations. Also promotes a photography business and allows for the viewer to get in touch and book an appointment.
 
+User stories:
+"As a visiting user, I would like to view the work of the photographer and gain inspiration"
+"I would like to contact the photographer and I would like to gain ideas from the work they publish"
+
 
 Potential features:
 
