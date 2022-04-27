@@ -51,4 +51,9 @@ Deployed to GitHub pages.
 From the repository of the project navigate into settings and change the branch to Main Branch.
 The changes were saved and the link can be opened here: https://zoe34.github.io/my-photography/
 
+Credits:
+The camera icon was taken from font awesome.
+W3Schools was frequantly used to check code.
+Images were provided by Pixabay.com for the gallery and Pexels.com. for the main page.
+
 
