@@ -42,6 +42,9 @@ Colour scheme:
 Black and beige shades dominate over the page
 The signup page has is based on black and white tonnes which stand out.
 
+Feauture Features:
+Another option in the signup section which includes a radiobutton. This would allow the user to decide which day/days of the week they are interested in.
+
 Testing:
 No errors were found when passing the code through the Jigsaw Validator.
 
@@ -59,5 +62,9 @@ Credits:
 The camera icon was taken from font awesome.
 W3Schools was frequantly used to check code.
 Images were provided by Pixabay.com for the gallery and Pexels.com. for the main page.
+
+
+
+
 
 
