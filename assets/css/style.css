@@ -412,6 +412,7 @@ input:hover {
         width: 100%;
     }
 
+
     .photographs-main>.image-one {
         width: 30%;
         height: 95%;
@@ -487,9 +488,11 @@ input:hover {
     }
 
     .menu>li {
-        padding: 0 5% 0 5%;
+        padding: 0 4% 0 4%;
         margin: 0;
+        text-align: center;
     }
+
 }
 
 /* for medium screen sizes from 620px wide and down */
@@ -517,9 +520,11 @@ input:hover {
     }
 
     .menu>li {
-        padding: 0 2% 0 2%;
+        padding: 0 4% 0 4%;
         margin: 0;
+        text-align: center;
     }
+
 
     .table {
         margin-bottom: 10%;
@@ -566,10 +571,12 @@ input:hover {
     }
 
     .menu>li {
-        padding: 0 2% 0 2%;
+        padding: 0 4% 0 4%;
         margin: 0;
+        text-align: center;
     }
 
-
-
+    .logo {
+        font-size: 180%;
+    }
 }
