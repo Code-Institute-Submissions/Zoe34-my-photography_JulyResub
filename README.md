@@ -78,9 +78,9 @@ Another option in the signup section which includes a radiobutton. This would al
 
 ## Testing
 
-testing pages steps
-screenchots of mobile and desktop
 No errors were found when passing the code through the Jigsaw Validator.
+No errors were found on any page when testing the code using W3C Validator.
+W3C was used and the link https://zoe34.github.io/my-photography/ was pasted into the Address bar. No errors or warnings showed.
 
 #### Desktop size: Main page
 !["desktop" screenshot](/assets/screenshots/desktop1.png)
@@ -107,15 +107,17 @@ No errors were found when passing the code through the Jigsaw Validator.
 The website is suited to large screens from a width of 1200px, medium screens from 735px, medium to small screens from 620px and very small devices from 576px.
 The content is adjusted using different queries to maintain proportions with varying screen size and keep the content easy to read.
 
-The errors that I have come across are an empty heading in the section element in the index.html and an empty heading in the logo class in in the header section. The main heading element is a camera symbol which is simple and related to the theme of the website.
+The errors that I have come across are an empty heading in the section element in the index.html and an empty heading in the logo class in in the header section. All errors have been successfully fixed. The main heading element is a camera symbol and "Capture" which is simple and related to the theme of the website.
 
-## Deployment:
-Deployed to GitHub pages. Redirected to Gitpod pages...
-From the repository of the project navigate into settings and change the branch to Main Branch.
-The changes were saved and the link can be opened here: https://zoe34.github.io/my-photography/
+## Deployment
+- Deployed to GitHub pages. 
+- Redirected to Gitpod pages.
+- From the repository of the project navigate into settings and change the branch to Main Branch.
+- The changes were saved and the link can be opened here: https://zoe34.github.io/my-photography/
+- The website was made public by opening the repositories on github and opening settings
+- At the bottom of the page under "Danger zone" the "Change visibility" option allows to change the page to public.
 
-
-## Credits:
+## Credits
 The camera icon was taken from font awesome.
 W3Schools was frequantly used to check code.
 Images were provided by Pixabay.com for the gallery and Pexels.com. for the main page.
