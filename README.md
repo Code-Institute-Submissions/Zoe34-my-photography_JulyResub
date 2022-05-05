@@ -74,6 +74,7 @@ Another option in the signup section which includes a radiobutton. This would al
 1. Gitpod was used to open the project through "Dashboard" then "Actions" and "Open".
 2. "More actions" and "Browser" option to open the code for the page in gitpod.
 3. To view the preview in the browser "python3 -m http.server" was used in the gitpod terminal.
+4. Balsamiq Wireframes was used to create the wireframes for this project.
 
 ## Testing
 
