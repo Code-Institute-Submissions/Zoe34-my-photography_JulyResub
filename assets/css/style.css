@@ -45,6 +45,7 @@ header>a {
     text-decoration: none;
 }
 
+/*menu*/
 .menu {
     font-size: 120%;
     display: inline-block;
@@ -87,8 +88,7 @@ nav>.menu>.signup-form {
     color: #9E6061;
 }
 
-/*images*/
-
+/*main image*/
 .menu-break {
     width: 100%;
     height: 5%;
@@ -143,8 +143,7 @@ nav>.menu>.signup-form {
     padding: 5%;
 }
 
-/*text*/
-
+/*main page text*/
 .heading {
     margin: 0 auto;
     width: 100%;
@@ -192,11 +191,7 @@ nav>.menu>.signup-form {
 
 }
 
-.text-break {
-    height: 10%;
-    width: 100%;
-}
-
+/*break between main text and "Opening times"*/
 .second-text-break {
     height: 30px;
     width: 100%;
@@ -296,7 +291,7 @@ input {
     font-size: large;
 }
 
-
+/*breaks between rows of the form*/
 .form-break {
     width: 70%;
     height: 30px;
@@ -307,6 +302,7 @@ input:hover {
     background-color: #9492908a;
 }
 
+/*submit button*/
 .join-button {
     width: 30%;
     height: 40px;
@@ -335,6 +331,7 @@ input:hover {
     justify-content: center;
 }
 
+/*confirmation page following the signup sheet*/
 .confirmation>h1 {
     margin-bottom: 0;
 }
@@ -349,6 +346,13 @@ input:hover {
     margin: 0;
 }
 
+.confirmation {
+    font-size: 200%;
+    color: #070707;
+    text-align: center;
+    margin: 15% 0 15% 0;
+}
+
 /*gallery*/
 
 .gallery-heading {
@@ -357,6 +361,7 @@ input:hover {
     font-size: 200%;
 }
 
+/*images on first row*/
 .row-1 img {
     width: 80%;
     display: inline-flex;
@@ -379,6 +384,7 @@ input:hover {
     margin-bottom: 10%;
 }
 
+/*images on second row*/
 .row-2 img {
     width: 80%;
     display: inline-flex;
@@ -393,14 +399,6 @@ input:hover {
 .right-image {
     margin: 0 20% 3% 3%;
 }
-
-.confirmation {
-    font-size: 200%;
-    color: #070707;
-    text-align: center;
-    margin: 15% 0 15% 0;
-}
-
 
 /*Media queries*/
 
