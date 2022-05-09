@@ -109,6 +109,19 @@ The content is adjusted using different queries to maintain proportions with var
 
 The errors that I have come across are an empty heading in the section element in the index.html and an empty heading in the logo class in in the header section. All errors have been successfully fixed. The main heading element is a camera symbol and "Capture" which is simple and related to the theme of the website.
 
+- As a new user I accessed the main page by pressing "Menu". The menu button lights up pink when hovered and becomes underlined when clicked to confirm which page I am currently on.
+- When I click on the "Capture" sign at the top of the page I am taken to the main page and the "Home" menu option becomes underlined pink.
+- When I scroll down I see the main page image, a descripton of what the business offers and a time schedule.
+- When clicking the "Gallery" option in the menu the button lights up pink when hovered over and when clicked it is underlined in pink.
+- When scrolling through the gallery page I see a display of photography.
+- When clicking on the "Contact" button of the menu bar it underlines pink when clicked on and lights up pink when hovered over.
+- As a new user I can enter my name in the "First Name:" input box, my last name into the "Last Name:" input box and my email address into the "Email Address:" input box.
+- If the details are not fully filled in and I press "Submit" a sign appears: "Please fill in this field".
+- When hovering over the input boxes they change colour to grey and when hovering over the "Submit" button it highlights green.
+- After pressing the submit button I am taken to a confirmation page with a short message.
+- When looking at the "Menu", "Gallery" and "Contact" pages I see a footer at the bottom of each page with the social media of the business on a black banner.
+- When clicking on the social media icons at the bottom of the page I am taken to the social media sign in page represented by the icon.
+
 ## Deployment
 - Deployed to GitHub pages. 
 - Redirected to Gitpod pages.
