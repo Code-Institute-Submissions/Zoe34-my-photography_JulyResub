@@ -12,13 +12,13 @@ To provide inspiration for the viewer and display a gallery of photos showing di
 ## User stories
 "As a visiting user, I would like to view the work of the photographer and gain inspiration"
 
-!["Gallery" screenshot](/assets/screenshots/gallery-page.png)
+!["Gallery" screenshot](/docs/screenshots/gallery-page.png)
 
-!["Gallery" screenshot](/assets/screenshots/gallery2.png)
+!["Gallery" screenshot](/docs/screenshots/gallery2.png)
 
 "I would like to contact the photographer and I would like to gain ideas from the work they publish"
 
-!["signup page" screenshot](/assets/screenshots/signup-page2.png)
+!["signup-page" screenshot](/docs/screenshots/signup-page2.png)
 
 ## Features
 
@@ -27,27 +27,43 @@ Provides a menu of options including the main page, the gallery and a signup she
 Its purpose is to make the navigation around the website easier. 
 The menu elements are highlighted red when hovered over, giving the user confirmation of where the link leads to for clarity.
 
+!["navigation-bar" screenshot](/docs/screenshots/menu.png)
+
 #### Main Image:
 Main image on the top of the page displaying a part of the offered photography. This gives the user an insight into what the work looks like. The section is supposed to be colourful and eyecatching to draw interest.
+
+!["main-image" screenshot](/docs/screenshots/desktop-main.png)
 
 #### Business description: 
 A brief description of what the business offers and the aim is to encourage potential customers to sign up. Explaining what the main theme is, which is fashion photography and advertising flexibility by offering to take photo shoots in different locations.
 
+!["business-description" screenshot](/docs/screenshots/mainpage1.png)
+
 #### Opening Times:
 A clear table informing the user during what hours the business functions during certain days of the week. It is meant to be easy to read, clear and concise.
+
+!["opening-times" screenshot](/docs/screenshots/mainpage2.png)
 
 #### The footer:
 Includes links to social media pages which would open in a new tab. The footer is meant to be simple and bold to make access easy and fast.
 
+!["footer" screenshot](/docs/screenshots/footer.png)
+
 #### Gallery:
 Shows the most recent work of the business and advertises working with different styles. The images display people of all ages wearing different outfits, making the business look diverse and open to ideas. This is useful to the user as they can see what the studio offers and how the photo shoot can be tailored to them and their needs.
+
+!["gallery" screenshot](/docs/screenshots/gallery3.png)
 
 #### The Signup Page:
 A get in touch page which offers a short signup form including the name and email of any user who would be interested in contacting. the background image is bold and features a camera, which supports the theme of the business. 
 
+!["signup-page" screenshot](/docs/screenshots/signup-page2.png)
+
 ## Colour scheme
 Black and beige shades dominate over the page
 The signup page has is based on black and white tonnes which stand out.
+
+!["main-page" screenshot](/docs/screenshots/mobile-main.png)
 
 ## Feauture Features
 Another option in the signup section which includes a radiobutton. This would allow the user to decide which day/days of the week they are interested in.
@@ -55,13 +71,13 @@ Another option in the signup section which includes a radiobutton. This would al
 ## Wireframes
 
 #### Main Page:
-!["wireframe1" screenshot](/assets/screenshots/main-page.png)
+!["wireframe1" screenshot](/docs/screenshots/main-page.png)
 
 #### Gallery:
-!["wireframe2" screenshot](/assets/screenshots/gallery.png)
+!["wireframe2" screenshot](/docs/screenshots/gallery.png)
 
 #### Signup Page:
-!["contact us" screenshot](/assets/screenshots/signup-page.png)
+!["wireframe3" screenshot](/docs/screenshots/signup-page.png)
 
 
 ## Technology
@@ -80,26 +96,31 @@ W3C was used and the link https://zoe34.github.io/my-photography/ was pasted int
 
 
 #### Desktop size: Main page
-!["desktop" screenshot](/assets/screenshots/desktop-main.png)
+!["desktop" screenshot](/docs/screenshots/desktop-main.png)
 
 #### Desktop size: Gallery
-!["desktop" screenshot](/assets/screenshots/desktop-gallery.png)
+!["desktop" screenshot](/docs/screenshots/desktop-gallery.png)
 
 #### Desktop size: Signup page
-!["desktop" screenshot](/assets/screenshots/desktop-signup.png)
+!["desktop" screenshot](/docs/screenshots/desktop-signup.png)
+
+#### Desktop size: Confirmation page
+!["desktop" screenshot](/docs/screenshots/confirmation-page.png)
 
 #### Small screen size: Main page
-!["main-page-mobile" screenshot](/assets/screenshots/mobile-main.png)
+!["main-page-mobile" screenshot](/docs/screenshots/mobile-main.png)
 
-!["main-page-mobile" screenshot](/assets/screenshots/mobile2.png)
+!["main-page-mobile" screenshot](/docs/screenshots/mobile2.png)
 
 #### Small screen size: Gallery
 
-!["gallery-mobile" screenshot](/assets/screenshots/mobile-gallery.png)
+!["gallery-mobile" screenshot](/docs/screenshots/mobile-gallery.png)
 
 #### Small screen size: Signup Page
-!["signup-page-mobile" screenshot](/assets/screenshots/mobile-signup.png)
+!["signup-page-mobile" screenshot](/docs/screenshots/mobile-signup.png)
 
+#### Small screen size: Confirmation page
+!["confirmation-page-mobile" screenshot](/docs/screenshots/confirmation-page-mobile.png)
 
 The website is suited to large screens from a width of 1200px, medium screens from 735px, medium to small screens from 620px and very small devices from 576px.
 The content is adjusted using different queries to maintain proportions with varying screen size and keep the content easy to read.
@@ -108,7 +129,8 @@ The errors that I have come across are an empty heading in the section element i
 
 - As a new user I accessed the main page by pressing "Menu". The menu button lights up pink when hovered and becomes underlined when clicked to confirm which page I am currently on.
 
-!["signup-page-mobile" screenshot](/assets/screenshots/menu.png)
+!["menu-bar" screenshot](/docs/screenshots/menu.png)
+
 - When I click on the "Capture" sign at the top of the page I am taken to the main page and the "Home" menu option becomes underlined pink.
 - When I scroll down I see the main page image, a descripton of what the business offers and a time schedule.
 - When clicking the "Gallery" option in the menu the button lights up pink when hovered over and when clicked it is underlined in pink.
