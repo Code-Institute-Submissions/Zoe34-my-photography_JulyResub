@@ -12,19 +12,13 @@ To provide inspiration for the viewer and display a gallery of photos showing di
 ## User stories
 "As a visiting user, I would like to view the work of the photographer and gain inspiration"
 
-!["Gallery" screenshot](/assets/screenshots/gallery1.png)
+!["Gallery" screenshot](/assets/screenshots/gallery-page.png)
 
 !["Gallery" screenshot](/assets/screenshots/gallery2.png)
 
 "I would like to contact the photographer and I would like to gain ideas from the work they publish"
 
-!["Contact us" screenshot](/assets/screenshots/contact-us.png)
-
-"I would like to find out about the photography business and access the opening times"
-
-!["Business description" screenshot](/assets/screenshots/mainpage1.png)
-
-!["Opening times" screenshot](/assets/screenshots/mainpage2.png)
+!["signup page" screenshot](/assets/screenshots/signup-page2.png)
 
 ## Features
 
@@ -33,8 +27,8 @@ Provides a menu of options including the main page, the gallery and a signup she
 Its purpose is to make the navigation around the website easier. 
 The menu elements are highlighted red when hovered over, giving the user confirmation of where the link leads to for clarity.
 
-#### Main Images:
-Three images on the top of the page displaying a part of the offered photography. This gives the user an insight into what the work looks like. The section is supposed to be colourful and eyecatching to draw interest.
+#### Main Image:
+Main image on the top of the page displaying a part of the offered photography. This gives the user an insight into what the work looks like. The section is supposed to be colourful and eyecatching to draw interest.
 
 #### Business description: 
 A brief description of what the business offers and the aim is to encourage potential customers to sign up. Explaining what the main theme is, which is fashion photography and advertising flexibility by offering to take photo shoots in different locations.
@@ -83,25 +77,25 @@ No errors were found on any page when testing the code using W3C Validator.
 W3C was used and the link https://zoe34.github.io/my-photography/ was pasted into the Address bar. No errors or warnings showed.
 
 #### Desktop size: Main page
-!["desktop" screenshot](/assets/screenshots/desktop1.png)
+!["desktop" screenshot](/assets/screenshots/desktop-main.png)
 
 #### Desktop size: Gallery
-!["desktop" screenshot](/assets/screenshots/gallery1.png)
+!["desktop" screenshot](/assets/screenshots/desktop-gallery.png)
 
 #### Desktop size: Signup page
-!["desktop" screenshot](/assets/screenshots/contact-us.png)
+!["desktop" screenshot](/assets/screenshots/desktop-signup.png)
 
 #### Small screen size: Main page
-!["main-page-mobile" screenshot](/assets/screenshots/mobile1.png)
+!["main-page-mobile" screenshot](/assets/screenshots/mobile-main.png)
 
 !["main-page-mobile" screenshot](/assets/screenshots/mobile2.png)
 
 #### Small screen size: Gallery
 
-!["gallery-mobile" screenshot](/assets/screenshots/mobile4.png)
+!["gallery-mobile" screenshot](/assets/screenshots/mobile-gallery.png)
 
 #### Small screen size: Signup Page
-!["signup-page-mobile" screenshot](/assets/screenshots/mobile5.png)
+!["signup-page-mobile" screenshot](/assets/screenshots/mobile-signup.png)
 
 
 The website is suited to large screens from a width of 1200px, medium screens from 735px, medium to small screens from 620px and very small devices from 576px.
@@ -110,17 +104,19 @@ The content is adjusted using different queries to maintain proportions with var
 The errors that I have come across are an empty heading in the section element in the index.html and an empty heading in the logo class in in the header section. All errors have been successfully fixed. The main heading element is a camera symbol and "Capture" which is simple and related to the theme of the website.
 
 - As a new user I accessed the main page by pressing "Menu". The menu button lights up pink when hovered and becomes underlined when clicked to confirm which page I am currently on.
+
+!["signup-page-mobile" screenshot](/assets/screenshots/menu.png)
 - When I click on the "Capture" sign at the top of the page I am taken to the main page and the "Home" menu option becomes underlined pink.
 - When I scroll down I see the main page image, a descripton of what the business offers and a time schedule.
 - When clicking the "Gallery" option in the menu the button lights up pink when hovered over and when clicked it is underlined in pink.
 - When scrolling through the gallery page I see a display of photography.
-- When clicking on the "Contact" button of the menu bar it underlines pink when clicked on and lights up pink when hovered over.
+- When clicking on the "Contact" button of the menu bar it underlines pink and lights up pink when hovered over.
 - As a new user I can enter my name in the "First Name:" input box, my last name into the "Last Name:" input box and my email address into the "Email Address:" input box.
 - If the details are not fully filled in and I press "Submit" a sign appears: "Please fill in this field".
 - When hovering over the input boxes they change colour to grey and when hovering over the "Submit" button it highlights green.
 - After pressing the submit button I am taken to a confirmation page with a short message.
 - When looking at the "Menu", "Gallery" and "Contact" pages I see a footer at the bottom of each page with the social media of the business on a black banner.
-- When clicking on the social media icons at the bottom of the page I am taken to the social media sign in page represented by the icon.
+- When clicking on the social media icons at the bottom of the page I am taken to the social media site represented by the icon.
 
 ## Deployment
 - Deployed to GitHub pages. 
