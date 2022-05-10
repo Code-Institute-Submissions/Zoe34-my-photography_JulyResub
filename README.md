@@ -27,7 +27,7 @@ Provides a menu of options including the main page, the gallery and a signup she
 Its purpose is to make the navigation around the website easier. 
 The menu elements are highlighted red when hovered over, giving the user confirmation of where the link leads to for clarity.
 
-!["navigation-bar" screenshot](/docs/screenshots/menu.png)
+!["menu-bar" screenshot](/docs/screenshots/menu.png)
 
 #### Main Image:
 Main image on the top of the page displaying a part of the offered photography. This gives the user an insight into what the work looks like. The section is supposed to be colourful and eyecatching to draw interest.
@@ -71,28 +71,53 @@ Another option in the signup section which includes a radiobutton. This would al
 ## Wireframes
 
 #### Main Page:
-!["wireframe1" screenshot](/docs/screenshots/main-page.png)
+!["wireframe1" screenshot](/docs/wireframes-screenshots/main-page.png)
 
 #### Gallery:
-!["wireframe2" screenshot](/docs/screenshots/gallery.png)
+!["wireframe2" screenshot](/docs/wireframes-screenshots/gallery.png)
 
 #### Signup Page:
-!["wireframe3" screenshot](/docs/screenshots/signup-page.png)
+!["wireframe3" screenshot](/docs/wireframes-screenshots/signup-page.png)
 
 
 ## Technology
-1. Gitpod was used to open the project through "Dashboard" then "Actions" and "Open".
-2. "More actions" and "Browser" option to open the code for the page in gitpod.
-3. To view the preview in the browser "python3 -m http.server" was used in the gitpod terminal.
-4. Balsamiq Wireframes was used to create the wireframes for this project.
+
+#### Gitpod:
+1. To open through Gitpod:
+2. Click "Dashboard" 
+3. Then "Actions" and "Open"
+4. "More actions" in the drop down menu and "Browser" option to open the code for the page in gitpod.
+5. To view the preview in the browser type "python3 -m http.server" in the gitpod terminal.
+
+#### Github:
+1. To open through Github enter https://github.com/Zoe34/my-photography.git into the browser.
+2. Click on the green Gitpod button.
+3. "More actions" in the drop down menu and "Browser" option to open the code for the page in gitpod.
+4. To view the preview in the browser type "python3 -m http.server" in the gitpod terminal.
+
+#### Wireframes:
+Balsamiq Wireframes was used to create the wireframes for this project.
+
+#### Other Libraries:
+
+#### - Google Fonts
+
+#### - VS Code
+
+#### Langueges used:
+#### - CSS
+#### - HTML5
 
 ## Testing
 
-- No errors were found when passing the code through the Jigsaw Validator.
-No errors were found on any page when testing the code using W3C Validator.
-W3C was used and the link https://zoe34.github.io/my-photography/ was pasted into the Address bar. No errors or warnings showed.
+### Code Validation:
 
-### Test Cases
+- No errors were found when passing the code through the Jigsaw Validator.
+- No errors were found on any page when testing the code using W3C Validator.
+- W3C was used and the link https://zoe34.github.io/my-photography/ was pasted into the Address bar. No errors or warnings showed.
+- The screen responsiveness for different screen sizes was tested using Chrome developer tools.
+
+### Test Cases:
 
 
 #### Desktop size: Main page
@@ -129,7 +154,9 @@ The errors that I have come across are an empty heading in the section element i
 
 - As a new user I accessed the main page by pressing "Menu". The menu button lights up pink when hovered and becomes underlined when clicked to confirm which page I am currently on.
 
+
 !["menu-bar" screenshot](/docs/screenshots/menu.png)
+
 
 - When I click on the "Capture" sign at the top of the page I am taken to the main page and the "Home" menu option becomes underlined pink.
 - When I scroll down I see the main page image, a descripton of what the business offers and a time schedule.
