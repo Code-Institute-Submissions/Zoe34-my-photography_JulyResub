@@ -72,9 +72,12 @@ Another option in the signup section which includes a radiobutton. This would al
 
 ## Testing
 
-No errors were found when passing the code through the Jigsaw Validator.
+- No errors were found when passing the code through the Jigsaw Validator.
 No errors were found on any page when testing the code using W3C Validator.
 W3C was used and the link https://zoe34.github.io/my-photography/ was pasted into the Address bar. No errors or warnings showed.
+
+### Test Cases
+
 
 #### Desktop size: Main page
 !["desktop" screenshot](/assets/screenshots/desktop-main.png)

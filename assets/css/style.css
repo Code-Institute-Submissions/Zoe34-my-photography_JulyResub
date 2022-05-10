@@ -9,6 +9,7 @@
 .page-container {
     position: relative;
     min-height: 100%;
+    overflow: hidden;
 }
 
 body {
@@ -63,8 +64,8 @@ header>a {
 }
 
 nav>.menu>.home {
-
     display: inline;
+    overflow: hidden;
 }
 
 nav>.menu>.gallery {
@@ -261,6 +262,7 @@ form {
     font-size: x-large;
 }
 
+/*label for the signup page, including name and email address*/
 label {
     box-sizing: border-box;
     border: 3px solid #070707;
