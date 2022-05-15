@@ -81,6 +81,7 @@ Another option in the signup section which includes a radiobutton. This would al
 
 
 ## Technology
+The project was created using the Google browser.
 
 #### Gitpod:
 1. To open through Gitpod:
@@ -117,8 +118,7 @@ Balsamiq Wireframes was used to create the wireframes for this project.
 - W3C was used and the link https://zoe34.github.io/my-photography/ was pasted into the Address bar. No errors or warnings showed.
 - The screen responsiveness for different screen sizes was tested using Chrome developer tools.
 
-### Test Cases:
-
+### Supported screens and browsers:
 
 #### Desktop size: Main page
 !["desktop" screenshot](/docs/screenshots/desktop-main.png)
@@ -152,13 +152,16 @@ The content is adjusted using different queries to maintain proportions with var
 
 The errors that I have come across are an empty heading in the section element in the index.html and an empty heading in the logo class in in the header section. All errors have been successfully fixed. The main heading element is a camera symbol and "Capture" which is simple and related to the theme of the website.
 
-- As a new user I accessed the main page by pressing "Menu". The menu button lights up pink when hovered and becomes underlined when clicked to confirm which page I am currently on.
+### Test Cases:
+
+- As a new user I accessed the main page by pressing "Menu". The menu button lights up pink when hovered over and becomes underlined when clicked to confirm which page I am currently on.
 
 
 !["menu-bar" screenshot](/docs/screenshots/menu.png)
 
 
 - When I click on the "Capture" sign at the top of the page I am taken to the main page and the "Home" menu option becomes underlined pink.
+
 - When I scroll down I see the main page image, a descripton of what the business offers and a time schedule.
 - When clicking the "Gallery" option in the menu the button lights up pink when hovered over and when clicked it is underlined in pink.
 - When scrolling through the gallery page I see a display of photography.
