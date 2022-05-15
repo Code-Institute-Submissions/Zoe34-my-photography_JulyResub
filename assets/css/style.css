@@ -69,12 +69,10 @@ nav>.menu>.home {
 }
 
 nav>.menu>.gallery {
-
     display: inline;
 }
 
 nav>.menu>.signup-form {
-
     display: inline;
 }
 
@@ -88,8 +86,14 @@ nav>.menu>.signup-form {
     color: #9E6061;
 }
 
+.home {
+    margin: 0;
+    padding: 0;
+}
+
 .active {
-    border-bottom: 3px solid #9E6061;
+    border-bottom: 1px solid #9E6061;
+    text-decoration:#9E6061;
 }
 
 /*main image*/
