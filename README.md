@@ -9,17 +9,6 @@ To view the work of a photographer and gain ideas and inspiration for potential 
 ## Site Owner’s Goal
 To provide inspiration for the viewer and display a gallery of photos showing different styles and designs in diverse locations. Also promotes a photography business and allows for the viewer to get in touch and book an appointment.
 
-## User stories
-"As a visiting user, I would like to view the work of the photographer and gain inspiration"
-
-!["Gallery" screenshot](/docs/screenshots/gallery-page.png)
-
-!["Gallery" screenshot](/docs/screenshots/gallery2.png)
-
-"I would like to contact the photographer and I would like to gain ideas from the work they publish"
-
-!["signup-page" screenshot](/docs/screenshots/signup-page2.png)
-
 ## Features
 
 #### Navigation bar at the top:
@@ -58,6 +47,54 @@ Shows the most recent work of the business and advertises working with different
 A get in touch page which offers a short signup form including the name and email of any user who would be interested in contacting. the background image is bold and features a camera, which supports the theme of the business. 
 
 !["signup-page" screenshot](/docs/screenshots/signup-page2.png)
+
+## Testing
+
+### Code Validation:
+
+- No errors were found when passing the code through the Jigsaw Validator.
+- No errors were found on any page when testing the code using W3C Validator.
+- W3C was used and the link https://zoe34.github.io/my-photography/ was pasted into the Address bar. No errors or warnings showed.
+- The screen responsiveness for different screen sizes was tested using Chrome developer tools.
+
+### Fixed bugs:
+
+- The errors that I have come across are an empty heading in the section element in the index.html 
+- An empty heading in the logo class in in the header section. - All errors have been successfully fixed. 
+- Another bug was horizontal scrolling when using the main page and the gallery page on mobile screen mode. This has been resolved using "overflow: hidden;".
+
+### Test Cases:
+
+- As a new user I accessed the main page by pressing "Menu". The menu button lights up pink when hovered over and becomes underlined when clicked to confirm which page I am currently on.
+
+
+!["menu-bar" screenshot](/docs/screenshots/menu.png)
+
+
+- When I click on the "Capture" sign at the top of the page I am taken to the main page and the "Home" menu option becomes underlined pink.
+
+- When I scroll down I see the main page image, a descripton of what the business offers and a time schedule.
+- When clicking the "Gallery" option in the menu the button lights up pink when hovered over and when clicked it is underlined in pink.
+- When scrolling through the gallery page I see a display of photography.
+- When clicking on the "Contact" button of the menu bar it underlines pink and lights up pink when hovered over.
+- As a new user I can enter my name in the "First Name:" input box, my last name into the "Last Name:" input box and my email address into the "Email Address:" input box.
+- If the details are not fully filled in and I press "Submit" a sign appears: "Please fill in this field".
+- When hovering over the input boxes they change colour to grey and when hovering over the "Submit" button it highlights green.
+- After pressing the submit button I am taken to a confirmation page with a short message.
+- When looking at the "Menu", "Gallery" and "Contact" pages I see a footer at the bottom of each page with the social media of the business on a black banner.
+- When clicking on the social media icons at the bottom of the page I am taken to the social media site represented by the icon.
+
+## User stories
+"As a visiting user, I would like to view the work of the photographer and gain inspiration"
+
+!["Gallery" screenshot](/docs/screenshots/gallery-page.png)
+
+!["Gallery" screenshot](/docs/screenshots/gallery2.png)
+
+"I would like to contact the photographer and I would like to gain ideas from the work they publish"
+
+!["signup-page" screenshot](/docs/screenshots/signup-page2.png)
+
 
 ## Colour scheme
 Black and beige shades dominate over the page
@@ -108,42 +145,6 @@ Balsamiq Wireframes was used to create the wireframes for this project.
 #### Langueges used:
 #### - CSS
 #### - HTML5
-
-## Testing
-
-### Code Validation:
-
-- No errors were found when passing the code through the Jigsaw Validator.
-- No errors were found on any page when testing the code using W3C Validator.
-- W3C was used and the link https://zoe34.github.io/my-photography/ was pasted into the Address bar. No errors or warnings showed.
-- The screen responsiveness for different screen sizes was tested using Chrome developer tools.
-
-### Test Cases:
-
-- As a new user I accessed the main page by pressing "Menu". The menu button lights up pink when hovered over and becomes underlined when clicked to confirm which page I am currently on.
-
-
-!["menu-bar" screenshot](/docs/screenshots/menu.png)
-
-
-- When I click on the "Capture" sign at the top of the page I am taken to the main page and the "Home" menu option becomes underlined pink.
-
-- When I scroll down I see the main page image, a descripton of what the business offers and a time schedule.
-- When clicking the "Gallery" option in the menu the button lights up pink when hovered over and when clicked it is underlined in pink.
-- When scrolling through the gallery page I see a display of photography.
-- When clicking on the "Contact" button of the menu bar it underlines pink and lights up pink when hovered over.
-- As a new user I can enter my name in the "First Name:" input box, my last name into the "Last Name:" input box and my email address into the "Email Address:" input box.
-- If the details are not fully filled in and I press "Submit" a sign appears: "Please fill in this field".
-- When hovering over the input boxes they change colour to grey and when hovering over the "Submit" button it highlights green.
-- After pressing the submit button I am taken to a confirmation page with a short message.
-- When looking at the "Menu", "Gallery" and "Contact" pages I see a footer at the bottom of each page with the social media of the business on a black banner.
-- When clicking on the social media icons at the bottom of the page I am taken to the social media site represented by the icon.
-
-### Fixed bugs:
-
-- The errors that I have come across are an empty heading in the section element in the index.html 
-- An empty heading in the logo class in in the header section. - All errors have been successfully fixed. 
-- Another bug was horizontal scrolling when using the main page and the gallery page on mobile screen mode. This has been resolved using "overflow: hidden;".
 
 
 ### Supported screens and browsers:
