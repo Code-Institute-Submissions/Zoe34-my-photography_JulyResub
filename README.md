@@ -136,7 +136,7 @@ Another option in the signup section which includes a radiobutton. This would al
 
 ## Colour scheme
 Black and beige shades dominate over the page.
-The signup page has is based on black and white tonnes which stand out.
+The signup page is based on black and white colours which stand out.
 
 !["main-page" screenshot](/docs/screenshots/mobile-main.png)
 
