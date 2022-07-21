@@ -178,7 +178,7 @@ Balsamiq Wireframes was used to create the wireframes for this project.
 
 ### - VS Code
 
-### Langueges used:
+### Languages used:
 ### - CSS
 ### - HTML5
 
