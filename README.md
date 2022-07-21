@@ -1,7 +1,7 @@
 # my-photography
 
 ## Purpose of the project
-This website intends to show off different fashion styles and provide inspiration. It is intended for all age groups and the aim is to invite people to sign up for a creative photoshoot displaying outfits in different settings. The website is also advertising a small portfolio of work and supposed to meet the photographic expectations of customers of all ages looking to have a creative photoshoot and capture a moment in time.
+This website intends to show off different fashion styles and provide inspiration. It is intended for all age groups and the aim is to invite people to sign up for a creative photoshoot displaying outfits in different settings. The website is also advertising a small portfolio of work and supposed to meet the photographic expectations of customers of all ages looking to have a creative photoshoot. The link to the page can be found here: https://zoe34.github.io/my-photography/ 
 
 ## External User’s Goal
 To view the work of a photographer and gain ideas and inspiration for potential photo shoots. To view the gallery and potentially contact the photography business.
